@@ -17,14 +17,24 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>60</y>
-      <width>85</width>
+      <x>10</x>
+      <y>10</y>
+      <width>121</width>
       <height>28</height>
      </rect>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string>Print registers</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>61</y>
+      <width>381</width>
+      <height>171</height>
+     </rect>
     </property>
    </widget>
   </widget>
@@ -34,9 +44,15 @@
      <x>0</x>
      <y>0</y>
      <width>400</width>
-     <height>25</height>
+     <height>26</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuRISC5_SUGAR">
+    <property name="title">
+     <string>RISC5-SUGAR</string>
+    </property>
+   </widget>
+   <addaction name="menuRISC5_SUGAR"/>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
    <attribute name="toolBarArea">
