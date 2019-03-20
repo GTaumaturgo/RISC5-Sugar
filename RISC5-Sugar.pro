@@ -26,11 +26,12 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         mainwindow.cpp \
-    registerbank.cpp
+    register_bank.cpp \
+    instruction_types.cpp
 
 HEADERS += \
         mainwindow.h \
-    registerbank.h
+    register_bank.h
 
 FORMS += \
         mainwindow.ui

@@ -6,7 +6,7 @@
 class RegisterBank{
     std::vector<int> registers;
 public:
-    std::map<std::string,int> ids;
+    std::unordered_map<std::string,int> ids;
     RegisterBank();
 };
 

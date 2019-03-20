@@ -1,10 +1,12 @@
-#include "registerbank.h"
+#include "register_bank.h"
 #include <bits/stdc++.h>
 #include <QDebug>
 
 using namespace std;
 
-RegisterBank::RegisterBank(): registers(32,0){
+RegisterBank::RegisterBank(): registers(32,0) {
+    
+    //filling ids table
     this->ids["zero"] = 0;
     this->ids["rs"] = 1;
     this->ids["sp"] = 2;

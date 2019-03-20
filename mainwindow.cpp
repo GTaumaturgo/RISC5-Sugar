@@ -1,6 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include "registerbank.h"
+#include "register_bank.h"
 #include <QDebug>
 #include <QDate>
 
