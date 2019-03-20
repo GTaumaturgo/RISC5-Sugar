@@ -19,11 +19,14 @@ MainWindow::~MainWindow(){
 void MainWindow::on_pushButton_clicked()
 {
     RegisterBank* reg = new RegisterBank();
-
     for(auto& p: reg->ids){
-        qDebug() << " " << p.first.c_str() << " " << std::to_string(p.second).c_str() << "\n";
-//        qDebug() << "Date:" << QDate::currentDate();
-
+        ui->plainTextEdit->insertPlainText(" ");
+        ui->plainTextEdit->insertPlainText(p.first.c_str());
+        ui->plainTextEdit->insertPlainText(" ");
+        ui->plainTextEdit->insertPlainText(std::to_string(p.second).c_str());
+        ui->plainTextEdit->insertPlainText("\n");
     }
 
+
 }
+
