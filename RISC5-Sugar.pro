@@ -27,11 +27,14 @@ SOURCES += \
         main.cpp \
         mainwindow.cpp \
     register_bank.cpp \
-    instruction_types.cpp
+    instruction_decoder.cpp
 
 HEADERS += \
         mainwindow.h \
-    register_bank.h
+    register_bank.h \
+    instruction_types.h \
+    instruction_decoder.h \
+    types.h
 
 FORMS += \
         mainwindow.ui
